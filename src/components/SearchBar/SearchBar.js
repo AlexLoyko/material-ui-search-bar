@@ -145,7 +145,7 @@ export default class SearchBar extends Component {
             fullWidth
             style={styles.input}
             underlineShow={false}
-            disabled={disabled}
+            //disabled={disabled}
             spellCheck={spellCheck}
             {...inputProps}
           />
@@ -154,7 +154,7 @@ export default class SearchBar extends Component {
           onClick={onRequestSearch}
           iconStyle={styles.iconButtonSearch.iconStyle}
           style={styles.iconButtonSearch.style}
-          disabled={disabled}
+          //disabled={disabled}
         >
           {searchIcon}
         </IconButton>
